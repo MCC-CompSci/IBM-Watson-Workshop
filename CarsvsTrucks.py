@@ -21,7 +21,7 @@ from watson_developer_cloud import VisualRecognitionV3 as VisualRecognition
 
 
 """VARIABLES"""
-exampleURL = "https://tinyurl.com/y7oblnh8"
+exampleURL = "https://tinyurl.com/y7oblnh8" 
 carPictures = "cars.zip"
 truckPictures = "trucks.zip"
 classID = ""
@@ -35,7 +35,7 @@ visual_recognition = VisualRecognition('2016-05-20', api_key='b5a4ecc127e8c2ddb3
 class CarsvsTrucks:
 
     """ FUNCTIONS """
-    #Example of pre-classifying images in URL form
+    #Example of pre-classifying images in URL form (view README.md for more info)
     def classifyURLImage():
         print(json.dumps(visual_recognition.classify(images_url=exampleURL), indent=2))
 
