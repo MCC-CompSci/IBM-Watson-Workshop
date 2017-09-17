@@ -4,8 +4,8 @@ IBM Watson examples and resources.
 Hello everyone! Thanks for attending my AI workshop today!
 
 Here are the links to the Watson Documentation:
-	[How To Use IBM Watson Visual Recognition AI](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/?python#introduction)
-	[How IBM Watson AI Works](https://console.bluemix.net/docs/services/visual-recognition/customizing.html#structure)
+	\n\t[How To Use IBM Watson Visual Recognition AI](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/?python#introduction)
+	\n\t[How IBM Watson AI Works](https://console.bluemix.net/docs/services/visual-recognition/customizing.html#structure)
 	json explanation: 
 
 Function Documentation:
