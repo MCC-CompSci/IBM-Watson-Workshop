@@ -51,17 +51,19 @@ class CarsvsTrucks:
             print(json.dumps(visual_recognition.create_classifier('CarsvsTrucks', trucks_positive_examples=trucks, negative_examples=cars), indent=2))
 
     #Example of checking all classifiers
+    #Basically returns a list of classifiers(custom user made A.I.s) in JSON format.
     def checkAllClassifiers():
         print(json.dumps(visual_recognition.list_classifiers(),indent=2))
 
     #Example of deleting classifiers
+    #Basically deletes a classifier(custom made A.I.) based on the give ID in the classID variable.
     def deleteClassifier():
         print(json.dumps(visual_recognition.delete_classifier(classifier_id=classID), indent=2))
         
         
 
-    """CALLING FUNCTIONS"""
-    classifyURLImage()
+    """CALLING FUNCTIONS. Call your functions here."""
+
     print("The program is finished!")
 
 
