@@ -34,12 +34,17 @@ visual_recognition = VisualRecognition('2016-05-20', api_key='b5a4ecc127e8c2ddb3
 
 class CarsvsTrucks:
 
-    """ FUNCTIONS """
-    #Example of pre-classifying images in URL form (view README.md for more info)
+    """ FUNCTIONS (NOTE: View README.md for more information on what these functions do)"""
+
+    #Example of pre-classifying images in URL form. 
+    #Change the exampleURL variable up above and call this function in order to receive 
+    #a report from watson on what it thinks your picture is.
     def classifyURLImage():
         print(json.dumps(visual_recognition.classify(images_url=exampleURL), indent=2))
 
-    #Example of creating a custom classifier
+    #Example of creating a custom classifier.
+    #Change the carPictures and the truckPictures variables up above to whatever you have nammed your zip files
+    #that contain the images that will be used to train your A.I.. 
     def createCustomClassifier():
         with open(join(dirname(__file__), truckPictures), 'rb') as trucks, \
         open(join(dirname(__file__), carPictures), 'rb') as cars:
