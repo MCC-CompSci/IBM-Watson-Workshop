@@ -13,7 +13,7 @@ Here are the links I spoke about at the end of the workshop:
 ### Function Documentation:
 
     classifyURLImage()
-**EXPLANATION:** This function prints the information returned from running the classify() method inside our visual_recognition
+**DESCRIPTION:** This function prints the information returned from running the classify() method inside our visual_recognition
 								object. It prints in json formated form.
 								
 **VARIABLES** you can change:
@@ -25,7 +25,7 @@ Here are the links I spoke about at the end of the workshop:
     createCustomClassifier()
 
 
-**EXPLANATION:** This function allows you to create your own custom classifiers. Basically allows you teach the A.I. to recognize something you want it recognize.
+**DESCRIPTION:** This function allows you to create your own custom classifiers. Basically allows you teach the A.I. to recognize something you want it recognize.
 
 **VARIABLES** you can change:   
 
@@ -40,14 +40,14 @@ Here are the links I spoke about at the end of the workshop:
 
 	checkAllClassifiers() 
 
-**EXPLANATION:** Simply returns a list of classifiers you've made in JSON format.
+**DESCRIPTION:** Simply returns a list of classifiers you've made in JSON format.
 **VARIABLES** that you can change: 
 None
 **OUTPUT:** A JSON formatted printed list of all classifiers made by the user.
 
 	deleteClassifier()
 
-**EXPLANATION:** Deletes a specific classifier made by the user.
+**DESCRIPTION:** Deletes a specific classifier made by the user.
 **VARIABLES** that you can change: 
 
  - `classID`: a ID unique to a custom made classifier. Input a
